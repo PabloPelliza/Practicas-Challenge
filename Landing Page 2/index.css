@@ -1,0 +1,42 @@
+*{
+    margin:0;
+    padding: 0;
+}
+
+.body {
+    background-color: cadetblue;
+    width:100%; 
+    height:300%;
+   }
+
+.header {
+    background: #43C6AC;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to top, #191654, #43C6AC);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to top, #191654, #43C6AC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    ;
+    width: 100%;
+    height: 100vh;
+    }
+   
+.navbar1{
+    background-color: coral;
+    border-radius: 4%;
+    position: fixed;
+    top: -6%;
+    width:100%;
+
+    height: 80px;
+    display: flex;
+ }   
+
+ .navlist{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    position: relative;
+    top: 15px;
+    align-items: center;
+    justify-content: space-around;
+
+ }
+
